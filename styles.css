@@ -1,0 +1,54 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+  }
+  
+  .navbar-brand, .nav-link {
+    font-weight: 600;
+  }
+  
+  .section {
+    padding: 4em 0;
+  }
+  #about {
+    background-color: #000;
+    color: #f6f7ea;
+  }
+  #portfolio .card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s;
+  }
+  
+  .resume-content h3 {
+    color: #ffa726;
+    margin-top: 1em;
+  }
+  
+  .resume-content ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .resume-content ul li {
+    margin-bottom: 1em;
+  }
+  .progress-bar {
+    width: 50%;
+    background-color: #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+ }
+ 
+ .progress {
+    height: 15px;
+    background-color: #4caf50;
+    color: rgb(238, 231, 231);
+    text-align: center;
+    line-height: 12px;
+    width: 0; /* Adjust width for each skill level */
+    transition: width 0.3s ease-in-out;
+ }
+ 
+  
+  
